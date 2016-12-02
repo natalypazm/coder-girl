@@ -5,6 +5,7 @@
 	<title>Coder Girl</title>
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 </head>
 <body>
 	
@@ -15,13 +16,21 @@
 						<h4>Code Girls</h4>
 					</div>
 					<div class="col-md-8">
-						<ul>
-							<li><a href="">Inicio</a></li>
-							<li><a href="#">Documental</a></li>
-							<li><a href="#">Hackathon</a></li>
-							<li><a href="#">Contacto</a></li>
-
-						</ul>
+							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+						        <span class="sr-only">Toggle navigation</span>
+						        <span class="icon-bar"></span>
+						        <span class="icon-bar"></span>
+						        <span class="icon-bar"></span>
+						     </button>
+      <a class="navbar-brand" href="#">MENU</a>
+						<nav>
+							<ul>
+								<li><a href="">Inicio</a></li>
+								<li><a href="#">Documental</a></li>
+								<li><a href="#">Hackathon</a></li>
+								<li><a href="#">Contacto</a></li>
+							</ul>
+						</nav>
 					</div>
 				</div>
 			</div>
@@ -79,7 +88,7 @@
 						<input type="text" name="Nombre" placeholder="Nombre"><br>
 						<input type="Email" name="Email" placeholder="Email"><br>
 						<input type="text" name="Asunto" placeholder="Asunto"><br>
-						<textarea>Mensaje</textarea><br>
+						<textarea placeholder="Mensaje"></textarea><br>
 						<button class="button_form">Enviar</button>
 					</form>
 				</div>
@@ -91,5 +100,7 @@
 			</div>
 		</footer>
 	</div>
+	<script src="http://code.jquery.com/jquery-latest.js"></script>
+	<script src="menu.js"></script>
 </body>
 </html>

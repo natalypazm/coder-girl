@@ -1,6 +1,32 @@
-.fondo,.documental,.hackathon,.form{
-	margin-bottom:50px;
+*{
+	margin:0;
+	padding:0;
 }
+body{
+	background:#FFFFFA;
+}
+header{
+	width:100%;
+}
+header nav{
+	width:90%;
+	max-width:1000px;
+	margin:20px auto;
+	background:#024029;
+}
+.menu_bar{
+	display:none;
+}
+header nav ul{
+	overflow:hidden;
+}
+header nav ul li{
+	float:right;
+}
+header nav ul li a:hover{
+	background:#CCC;
+}
+
 /**/
 header{
 	background:#F2F4F4  ;
@@ -20,13 +46,17 @@ header a{
 	padding:0px 8px;
 }
 /**/
+.fondo,.documental,.hackathon,.form{
+	margin-bottom:50px;
+}
 .fondo{
 	background:url(../img/home.jpg);
+	background-size:cover;
 }
 
 
 .hero{
-	padding:160px;
+	padding:200px;
 	text-align:center;
 }
 .hero h2{
@@ -36,9 +66,9 @@ header a{
 	color:white;
 	background:#2874A6;
 	height:40px;
-	font-size:15px;
+	font-size:18px;
 	border-radius:6px;
-	padding:0 10px;
+	padding:5px 13px;
 	border:1px solid #2874A6 ;
 }
 .documental h3{
@@ -51,9 +81,13 @@ header a{
 
 input,textarea{
 	margin:5px 0;
-	border-radius:0 5px;
+	padding:0 7px;
+	border-radius:5px;
 	border:2px solid #CCC;
-	width:250px;
+	width:300px;
+}
+textarea{
+	height:100px;
 }
 .button_form{
 	color:white;
@@ -64,10 +98,44 @@ input,textarea{
 	border:1px solid #2874A6 ;
 }
 footer{
-	background: #1F618D;
+	background:#21618C;
 	color:white;
 	padding:20px 10px 30px 10px;
 }
 footer span{
 	color:yellow;
 }
+
+@media screen and (max-width:700px) {
+	header nav{
+		width:80%;
+		height:100%;
+		margin:0;
+		position:fixed;
+		left:-100%;
+	}
+
+	header nav ul li{
+		display:block;
+		float:none;
+		border-bottom:#CCC;
+	}
+	.menu_bar{
+		display:block;
+		width:100%;
+		background:#CCC;
+	}
+	.menu_bar .bt-menu{
+		display:block;
+		padding:20px;
+		background:#024029;
+		color:white;
+		text-decoration:none;
+		font-weight:bold;
+		font-size:15px;
+		-webkit-box-sizing:border-box;
+		-moz-box-sizing:border-box;
+		box-sizing:border-box;
+	}
+}
+
