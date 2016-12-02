@@ -1,0 +1,73 @@
+.fondo,.documental,.hackathon,.form{
+	margin-bottom:50px;
+}
+/**/
+header{
+	background:#F2F4F4  ;
+	color:#85929E;
+	padding:6px 0;
+}
+header ul{
+	text-align:right;
+	margin:10px 0;
+}
+header li{
+	display:inline-block;
+}
+header a{
+	text-decoration:none;
+	color:#85929E;
+	padding:0px 8px;
+}
+/**/
+.fondo{
+	background:url(../img/home.jpg);
+}
+
+
+.hero{
+	padding:160px;
+	text-align:center;
+}
+.hero h2{
+	color:white;
+}
+.button_hero{
+	color:white;
+	background:#2874A6;
+	height:40px;
+	font-size:15px;
+	border-radius:6px;
+	padding:0 10px;
+	border:1px solid #2874A6 ;
+}
+.documental h3{
+	padding:30px 0;
+}
+.hackathon{
+	background:yellow;
+	padding:40px 0;	
+}
+
+input,textarea{
+	margin:5px 0;
+	border-radius:0 5px;
+	border:2px solid #CCC;
+	width:250px;
+}
+.button_form{
+	color:white;
+	background:#2874A6;
+	font-size:13px;
+	border-radius:3px;
+	padding: 5px 7px;
+	border:1px solid #2874A6 ;
+}
+footer{
+	background: #1F618D;
+	color:white;
+	padding:20px 10px 30px 10px;
+}
+footer span{
+	color:yellow;
+}
