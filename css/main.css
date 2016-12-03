@@ -2,50 +2,9 @@
 	margin:0;
 	padding:0;
 }
-body{
-	background:#FFFFFA;
+.navbar-default .navbar-collapse ul>li>a:hover{
+	background:#ccc;
 }
-header{
-	width:100%;
-}
-header nav{
-	width:90%;
-	max-width:1000px;
-	margin:20px auto;
-	background:#024029;
-}
-.menu_bar{
-	display:none;
-}
-header nav ul{
-	overflow:hidden;
-}
-header nav ul li{
-	float:right;
-}
-header nav ul li a:hover{
-	background:#CCC;
-}
-
-/**/
-header{
-	background:#F2F4F4  ;
-	color:#85929E;
-	padding:6px 0;
-}
-header ul{
-	text-align:right;
-	margin:10px 0;
-}
-header li{
-	display:inline-block;
-}
-header a{
-	text-decoration:none;
-	color:#85929E;
-	padding:0px 8px;
-}
-/**/
 .fondo,.documental,.hackathon,.form{
 	margin-bottom:50px;
 }
@@ -53,7 +12,6 @@ header a{
 	background:url(../img/home.jpg);
 	background-size:cover;
 }
-
 
 .hero{
 	padding:200px;
@@ -71,8 +29,8 @@ header a{
 	padding:5px 13px;
 	border:1px solid #2874A6 ;
 }
-.documental h3{
-	padding:30px 0;
+.documental h2{
+	margin-bottom:50px;
 }
 .hackathon{
 	background:yellow;
@@ -88,6 +46,9 @@ input,textarea{
 }
 textarea{
 	height:100px;
+}
+form input{
+	margin-bottom:8px;
 }
 .button_form{
 	color:white;
@@ -105,9 +66,12 @@ footer{
 footer span{
 	color:yellow;
 }
-
 @media screen and (max-width:700px) {
-	header nav{
+	.hero{
+		padding:20px;
+	}
+
+/*	header nav{
 		width:80%;
 		height:100%;
 		margin:0;
@@ -118,9 +82,9 @@ footer span{
 	header nav ul li{
 		display:block;
 		float:none;
-		border-bottom:#CCC;
+		border-bottom:#CCC;*/
 	}
-	.menu_bar{
+/*	.menu_bar{
 		display:block;
 		width:100%;
 		background:#CCC;
@@ -137,5 +101,5 @@ footer span{
 		-moz-box-sizing:border-box;
 		box-sizing:border-box;
 	}
-}
+}*/
 
