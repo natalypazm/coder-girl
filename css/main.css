@@ -2,6 +2,11 @@
 	margin:0;
 	padding:0;
 }
+header {
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+}
 .navbar-default .navbar-collapse ul>li>a:hover{
 	background:#ccc;
 }
